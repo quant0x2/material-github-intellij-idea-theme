@@ -1,0 +1,32 @@
+<idea-plugin>
+  <id>enable.colors.github-dark</id>
+  <name>GitHub Dark</name>
+  <version>1.0</version>
+  <vendor email="idontknow@wwww.ccc" url="idontknow.app">quant0x2</vendor>
+
+  <description><![CDATA[
+      Just another theme for IntelliJ IDEA
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Initial release
+    ]]>
+  </change-notes>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <themeProvider id="6e812ec3-bca6-4e4a-a0ce-94f841ca3620" path="/GithubDark.theme.json"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
